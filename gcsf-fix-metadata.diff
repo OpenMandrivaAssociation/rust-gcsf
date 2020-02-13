@@ -1,0 +1,11 @@
+--- gcsf-0.1.25/Cargo.toml	1969-12-31T16:00:00-08:00
++++ gcsf-0.1.25/Cargo.toml	2019-02-20T16:58:12.092551-08:00
+@@ -14,7 +14,7 @@
+ name = "gcsf"
+ version = "0.1.25"
+ authors = ["Sergiu Puscas <srg.pscs@gmail.com>"]
+-exclude = ["build/**/*.o", "doc/**/*.html", "client_secret.json"]
++exclude = ["build/**/*.o", "doc/**/*.html", "client_secret.json", "/ci/*"]
+ description = "Filesystem based on Google Drive"
+ keywords = ["google", "drive", "fuse", "filesystem"]
+ license = "MIT"
